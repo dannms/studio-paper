@@ -10,7 +10,7 @@ const Projects = () => {
 					<ArrowUpRightIcon className="w-5 h-5 text-gold" />
 					<h2 className="font-mono">Projetos recentes</h2>
 				</div>
-				<div className="grid grid-cols-1 lg:grid-cols-2 gap-20 py-32">
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-20 py-32">
 					<Card />
 				</div>
 			</div>

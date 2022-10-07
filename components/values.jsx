@@ -5,7 +5,7 @@ const Values = ({ category, id }) => {
 				<small className="text-gold">{`# ${id}`}</small>
 				<small className="font-mono">{category}</small>
 			</div>
-			<div className="grid grid-cols-1 lg:grid-cols-2 w-full py-20 gap-20">
+			<div className="grid grid-cols-1 md:grid-cols-2 w-full py-20 gap-20">
 				<div className="w-full aspect-square bg-white"></div>
 				<div>
 					<p className="text-xl">

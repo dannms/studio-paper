@@ -41,7 +41,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="pt-20 pb-6 flex flex-col lg:flex-row gap-6 lg:items-center justify-between">
+			<div className="pt-20 pb-10 flex flex-col md:flex-row gap-6 lg:items-center justify-between">
 				<div>
 					<ul className="flex items-center gap-6 text-xl">
 						{socialLinks.map((item, index) => (

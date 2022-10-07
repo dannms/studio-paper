@@ -27,7 +27,7 @@ const Navbar = () => {
 								<Image src={brand} alt="Studio Paper" />
 							</button>
 						</div>
-						<div className="hidden lg:flex">
+						<div className="hidden md:flex">
 							<ul className="flex items-center gap-14">
 								{navLinks.map((item, index) => (
 									<Link

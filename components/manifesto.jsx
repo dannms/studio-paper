@@ -20,7 +20,7 @@ const Manifesto = () => {
 					<h2 className="font-mono">Um pouco sobre nós</h2>
 				</div>
 				<div className="relative flex flex-col gap-12">
-					<div className="text-2xl lg:text-6xl lg:leading-tight max-w-4xl">
+					<div className="text-2xl lg:text-6xl lg:leading-tight max-w-lg lg:max-w-4xl">
 						{intro}
 					</div>
 					<div className="relative flex items-center justify-end lg:absolute bottom-0 right-0">

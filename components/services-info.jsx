@@ -26,7 +26,7 @@ const SInfo = ({ name, icon, description, items }) => {
 			</div>
 			<div className="font-mono font-bold">{name}</div>
 			<div className="py-4 flex grow">{description}</div>
-			<div>
+			<div className="">
 				<ul className="flex flex-wrap gap-3">
 					{items.map((item, index) => (
 						<li key={index}>
@@ -35,7 +35,7 @@ const SInfo = ({ name, icon, description, items }) => {
 								whileHover="hover"
 								animate="rest"
 								variants={motionItem}
-								className="cursor-default"
+								className="cursor-default text-xs"
 							>
 								{item}
 							</motion.small>
