@@ -32,7 +32,7 @@ const Services = () => {
 					whileInView="visible"
 					viewport={{ once: true }}
 					variants={servicesItems}
-					className="grid grid-cols-1 md:grid-cols-3 gap-12"
+					className="grid grid-cols-1 md:grid-cols-3 gap-20"
 				>
 					{servicesInfo.map((item, index) => (
 						<SInfo
