@@ -21,7 +21,9 @@ const Footer = () => {
 					<h2 className="font-mono">Nos dê um oi</h2>
 				</div>
 				<div className="flex flex-col gap-6">
-					<h3 className="text-6xl font-bold">Vamos conversar</h3>
+					<h3 className="text-2xl lg:text-6xl font-bold">
+						Vamos conversar
+					</h3>
 					<div className="flex">
 						<Link href="mailto:contato@studiopaper.com.br">
 							<a>
@@ -30,7 +32,7 @@ const Footer = () => {
 									whileHover="hover"
 									animate="rest"
 									variants={linkMotion}
-									className="text-xl font-mono border-b-2 border-solid py-4"
+									className="lg:text-xl font-mono border-b-2 border-solid py-4"
 								>
 									contato@studiopaper.com.br
 								</motion.div>
@@ -39,7 +41,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="pt-20 pb-6 flex items-center justify-between">
+			<div className="pt-20 pb-6 flex flex-col lg:flex-row gap-6 lg:items-center justify-between">
 				<div>
 					<ul className="flex items-center gap-6 text-xl">
 						{socialLinks.map((item, index) => (

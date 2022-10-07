@@ -84,18 +84,18 @@ export const servicesInfo = [
 export const socialLinks = [
 	{
 		icon: 'bx bxl-instagram',
-		to: '/',
+		to: 'https://www.instagram.com/studio.paperdesign/',
 	},
 	{
 		icon: 'bx bxl-behance',
-		to: '/',
+		to: 'https://www.behance.net/studiopaper',
 	},
 	{
 		icon: 'bx bxl-dribbble',
-		to: '/',
+		to: 'https://dribbble.com/studiopaper',
 	},
 	{
 		icon: 'bx bxl-github',
-		to: '/',
+		to: 'https://github.com/studiopaper',
 	},
 ];

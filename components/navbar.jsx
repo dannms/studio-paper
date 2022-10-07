@@ -1,4 +1,3 @@
-import Container from './container';
 import { navLinks } from '../libs/constants';
 import { motion } from 'framer-motion';
 import brand from '../public/studiopaper.svg';
@@ -21,14 +20,14 @@ const Navbar = () => {
 	return (
 		<>
 			<header className="py-10 absolute top-0 left-0 right-0" id="top">
-				<Container>
+				<div className="mx-auto max-w-5xl px-8 lg:px-0">
 					<div className="flex items-center justify-between">
 						<div className="cursor-pointer">
 							<button onClick={() => router.push('/')}>
 								<Image src={brand} alt="Studio Paper" />
 							</button>
 						</div>
-						<div>
+						<div className="hidden lg:flex">
 							<ul className="flex items-center gap-14">
 								{navLinks.map((item, index) => (
 									<Link
@@ -55,7 +54,7 @@ const Navbar = () => {
 							</ul>
 						</div>
 					</div>
-				</Container>
+				</div>
 			</header>
 		</>
 	);

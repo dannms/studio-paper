@@ -19,11 +19,11 @@ const Manifesto = () => {
 					<ArrowUpRightIcon className="w-5 h-5 text-gold" />
 					<h2 className="font-mono">Um pouco sobre nós</h2>
 				</div>
-				<div className="relative">
-					<div className="text-6xl leading-tight max-w-4xl">
+				<div className="relative flex flex-col gap-12">
+					<div className="text-2xl lg:text-6xl lg:leading-tight max-w-4xl">
 						{intro}
 					</div>
-					<div className="absolute bottom-0 right-0">
+					<div className="relative flex items-center justify-end lg:absolute bottom-0 right-0">
 						<Image src={brand} alt="Studio Paper" />
 					</div>
 				</div>

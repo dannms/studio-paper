@@ -1,5 +1,6 @@
 import Card from './card';
 import { ArrowUpRightIcon } from '@heroicons/react/20/solid';
+import Link from 'next/link';
 
 const Projects = () => {
 	return (
@@ -9,7 +10,7 @@ const Projects = () => {
 					<ArrowUpRightIcon className="w-5 h-5 text-gold" />
 					<h2 className="font-mono">Projetos recentes</h2>
 				</div>
-				<div className="grid grid-cols-2 gap-20 py-32">
+				<div className="grid grid-cols-1 lg:grid-cols-2 gap-20 py-32">
 					<Card />
 				</div>
 			</div>
@@ -17,15 +18,19 @@ const Projects = () => {
 				<small className="font-mono text-gold">
 					Eles confiam em nós
 				</small>
-				<p className="text-xl max-w-xl">
+				<p className="lg:text-xl max-w-xl">
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 					Beatae eaque enim veniam asperiores at nam commodi, quia
 					laborum incidunt laudantium dolor dignissimos deserunt et
 					maxime consectetur nostrum qui debitis sint?
 				</p>
-				<button className="text-sm bg-white text-black font-mono font-bold px-6 py-3 rounded-xl">
-					Ver todos os projetos
-				</button>
+				<Link href="/projetos">
+					<a>
+						<div className="text-sm bg-white text-black font-mono font-bold px-6 py-3 rounded-xl">
+							Ver todos os projetos
+						</div>
+					</a>
+				</Link>
 			</div>
 		</section>
 	);

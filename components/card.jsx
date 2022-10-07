@@ -15,11 +15,11 @@ const Card = () => {
 		>
 			<Link href="/">
 				<a>
-					<div className="w-full h-[600px] relative bg-white"></div>
+					<div className="w-full h-96 lg:h-[600px] relative bg-white"></div>
 				</a>
 			</Link>
 			<div className="flex flex-col gap-3">
-				<Link href="/">
+				<Link href="/projetos/project">
 					<a>
 						<div className="text-xl font-bold">
 							Título do projeto
